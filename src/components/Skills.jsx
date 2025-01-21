@@ -6,6 +6,9 @@ import JavaScript from '../assets/javascript.png';
 import ReactImg from '../assets/react.png';
 import GitHub from '../assets/github.png';
 import Tailwind from '../assets/tailwind.png';
+import Node from '../assets/nodejs.png';
+import Nest from '../assets/nest.png';
+import Angular from '../assets/angular.png';
 
 
 
@@ -42,6 +45,18 @@ const Skills = () => {
                 <div className='shadow-md shadow-[#040c16] hover:scale-110 duration-500'>
                     <img className='w-20 mx-auto' src={Tailwind} alt="HTML icon" />
                     <p className='my-4'>Tailwind</p>
+                </div>
+                <div className='shadow-md shadow-[#040c16] hover:scale-110 duration-500'>
+                    <img className='w-20 mx-auto' src={Angular} alt="Angular icon" />
+                    <p className='my-4'>Angular</p>
+                </div>
+                <div className='shadow-md shadow-[#040c16] hover:scale-110 duration-500'>
+                    <img className='w-20 mx-auto' src={Node} alt="Node icon" />
+                    <p className='my-4'>Node</p>
+                </div>
+                <div className='shadow-md shadow-[#040c16] hover:scale-110 duration-500'>
+                    <img className='w-20 mx-auto' src={Nest} alt="Nest icon" />
+                    <p className='my-4'>Nest</p>
                 </div>
             </div>
         </div>
